@@ -1,0 +1,30 @@
+﻿Variable name,Description,Source
+country,name of country,merge key: both data sets
+date,date,merge key: both data sets
+retailrec,retail and recreation mobility,https://www.google.com/covid19/mobility/
+groceryph,grocery/pharmacy mobility,https://www.google.com/covid19/mobility/
+parks,parks mobility,https://www.google.com/covid19/mobility/
+transit,transit station mobility,https://www.google.com/covid19/mobility/
+workplace,workplace mobility,https://www.google.com/covid19/mobility/
+residence,residential mobility,https://www.google.com/covid19/mobility/
+last_updated,download version Rt data,http://trackingr-env.eba-9muars8y.us-east-2.elasticbeanstalk.com/
+r7,"effective reproduction rate, 7 day infectiousness",http://trackingr-env.eba-9muars8y.us-east-2.elasticbeanstalk.com/
+ci_95_u7,"upper bound of 95% credible interval, r7",http://trackingr-env.eba-9muars8y.us-east-2.elasticbeanstalk.com/
+ci_95_l7,"lower bound of 95% credible interval, r7",http://trackingr-env.eba-9muars8y.us-east-2.elasticbeanstalk.com/
+countrynum,numeric code for country,
+datenum,numeric code for date,
+lag7retail,lag of 7 days for retail/recreation mobility,
+lag7grocery,lag of 7 days for grocery/pharmacy mobility,
+lag7parks,lag of 7 days for parks mobility,
+lag7transit,lag of 7 days for transit station mobility,
+lag7work,lag of 7 days for workplace mobility,
+lag7residence,lag of 7 days for residence mobility,
+lag14retail,lag of 14 days for retail/recreation mobility,
+lag14grocery,lag of 14 days for grocery/pharmacy mobility,
+lag14parks,lag of 14 days for parks mobility,
+lag14transit,lag of 14 days for transit station mobility,
+lag14work,lag of 14 days for workplace mobility,
+lag14residence,lag of 14 days for residence mobility,
+numdays,number of days since sufficient cases to calculate r7,derived value
+lnr7,log of r7,http://trackingr-env.eba-9muars8y.us-east-2.elasticbeanstalk.com/
+lnciupperr7,log of upper bound (95%) of r7,http://trackingr-env.eba-9muars8y.us-east-2.elasticbeanstalk.com/
