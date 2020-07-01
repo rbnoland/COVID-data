@@ -1,5 +1,5 @@
 # COVID-data
-Repository for data used in paper.
+Repository for data from May 18th, 2020.  This data has changed in the update.
 
 Codebooks explain data in the two csv files.
 
